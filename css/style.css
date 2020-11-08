@@ -78,6 +78,8 @@ html {
     background: var(--document-background);
 }
 body {
+    width: 1600px;
+    margin: 0 auto;
     font: 500 14px/1.14 Roboto;
     letter-spacing: 0.03em;
     color: var(--text-grey);
@@ -85,13 +87,10 @@ body {
 }
 header {
     width: 100%;
-    
-    
-}
-header .container {
     padding: 24px 0 25px;
     border-bottom: 1px solid #ECECEC;
 }
+
 .hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -189,14 +188,10 @@ nav {
 .bussines-solution {
     width: 100%;
     text-align: center;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) 100%), url('../img/hero-img.webp') center no-repeat;
 }
 .bussines-solution .content {
     padding: 200px 0;
-}
-.hero {
-    width: 1600px;;
-    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) 100%), url('../img/hero-img.webp') center no-repeat;
-    background-size: contain;
 }
 .bussines-solution h1 {
     width: 696px;
