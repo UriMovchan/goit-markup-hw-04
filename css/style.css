@@ -78,8 +78,6 @@ html {
     background: var(--document-background);
 }
 body {
-    width: 1600px;
-    margin: 0 auto;
     font: 500 14px/1.14 Roboto;
     letter-spacing: 0.03em;
     color: var(--text-grey);
@@ -189,6 +187,7 @@ nav {
     width: 100%;
     text-align: center;
     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) 100%), url('../img/hero-img.webp') center no-repeat;
+    background-size: cover;
 }
 .bussines-solution .content {
     padding: 200px 0;
